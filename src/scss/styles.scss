@@ -24,3 +24,62 @@
 
 // Custom styles:
 
+#jumbo {
+  background-image: url("../img/pirate-ship.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: underline;
+}
+
+.im-fell dw pica-regular {
+  font-family: "IM Fell DW Pica", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#jumbotitle, #jumbotext { 
+  font-family: "IM Fell Dw Pica";
+  text-align: center;
+  color: white;
+}
+
+h1, p {
+  text-align: left;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  background-color: #59acac;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.figure-img {
+    float: left;
+    width: 100%;
+  }
+
+.fig-caption {
+  font-weight: bold;
+}
+
+.fig-source {
+  font-family: "IM Fell Dw Pica";
+  font-style: italic;
+}
